@@ -1,0 +1,16 @@
+{
+  "name": "cico-spark-export",
+  "version": "1.0.0",
+  "description": "Will download your Spark Content for backup",
+  "author": "Dorin Ciobanu <dorin@ciobanu.org>",
+  "main": "export.js",
+  "scripts": {
+    "start": "node export.js"
+  },
+  "dependencies": {
+    "bluebird": "*",
+    "request-promise": "*",
+    "https": "*",
+    "underscore": "^1.8.3"
+  }
+}
